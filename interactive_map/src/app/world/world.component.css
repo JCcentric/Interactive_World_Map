@@ -1,0 +1,69 @@
+h1{
+    font-style: verdana;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 25px;
+}
+
+h3{
+    font-style: verdana;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.svgObject {
+    box-shadow: 0 0 18px 3px rgba(0, 0, 0, .3);
+    margin: 30px 20px;
+    padding-top: 50px;
+  }
+
+.svgObject::after {
+    background-color: rgba(195, 195, 195, .1);
+    bottom: 10px;
+    content: '';
+    filter: blur(32px);
+    left: 10px;
+    opacity: .5;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: -1;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.map-column{
+    flex: 1;
+    padding: 5px;
+    border-right: 1px solid #ccc;
+}
+
+.info-column{
+    flex: 1;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    height: 100%;
+}
+
+.country-info{
+    border: 1px solid #ccc; /* Optional: add a border around country info */
+    padding: 15px;
+    border-radius: 5px; /* Optional: rounded corners */
+    background-color: #f9f9f9; /* Optional: background color */
+    transform: translateY(50%);
+}
+
+.no-data {
+    padding: 15px;
+    color: grey;
+    text-align: center;
+    transform: translateY(200%);
+}
