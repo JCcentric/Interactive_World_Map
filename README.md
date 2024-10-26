@@ -6,24 +6,9 @@
 Student ID #: 011552175
 
 Angular CLI: 18.2.10
-Node: 20.18.0
-Package Manager: npm 10.9.0
-OS: win32 x64
 
-Angular: 18.2.9
-... animations, common, compiler, compiler-cli, core, forms
-... platform-browser, platform-browser-dynamic, platform-server
-... router
+This project was made to satisfy the above listed class. 
 
-Package                         Version
----------------------------------------------------------
-@angular-devkit/architect       0.1802.10
-@angular-devkit/build-angular   18.2.10
-@angular-devkit/core            18.2.10
-@angular-devkit/schematics      18.2.10
-@angular/cli                    18.2.10
-@angular/ssr                    18.2.10
-@schematics/angular             18.2.10
-rxjs                            7.8.1
-typescript                      5.5.4
-zone.js                         0.14.10
+In order to run the app, clone the repository then cd to its location. After, run the command "ng serve --open" as this will open the web application.
+
+Have fun using it :)
